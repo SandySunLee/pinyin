@@ -1,0 +1,262 @@
+{
+  "textbookVersion": "2024",
+  "toneDemos": [
+    {"toneNumber": 1, "toneName": "一声", "mark": "ˉ", "exampleCharacter": "妈", "exampleSyllable": "mā"},
+    {"toneNumber": 2, "toneName": "二声", "mark": "ˊ", "exampleCharacter": "麻", "exampleSyllable": "má"},
+    {"toneNumber": 3, "toneName": "三声", "mark": "ˇ", "exampleCharacter": "马", "exampleSyllable": "mǎ"},
+    {"toneNumber": 4, "toneName": "四声", "mark": "ˋ", "exampleCharacter": "骂", "exampleSyllable": "mà"}
+  ],
+  "blendDemos": [
+    {"initial": "b", "final": "a", "syllable": "ba", "exampleCharacter": "爸"},
+    {"initial": "m", "final": "a", "syllable": "ma", "exampleCharacter": "妈"},
+    {"initial": "d", "final": "a", "syllable": "da", "exampleCharacter": "大"},
+    {"initial": "t", "final": "u", "syllable": "tu", "exampleCharacter": "土"},
+    {"initial": "l", "final": "u", "syllable": "lu", "exampleCharacter": "路"},
+    {"initial": "g", "final": "e", "syllable": "ge", "exampleCharacter": "哥"},
+    {"initial": "h", "final": "ua", "syllable": "hua", "exampleCharacter": "花"},
+    {"initial": "j", "final": "i", "syllable": "ji", "exampleCharacter": "积"},
+    {"initial": "q", "final": "i", "syllable": "qi", "exampleCharacter": "棋"},
+    {"initial": "z", "final": "i", "syllable": "zi", "exampleCharacter": "字"},
+    {"initial": "c", "final": "i", "syllable": "ci", "exampleCharacter": "词"},
+    {"initial": "zh", "final": "uo", "syllable": "zhuo", "exampleCharacter": "桌"},
+    {"initial": "sh", "final": "u", "syllable": "shu", "exampleCharacter": "书"},
+    {"initial": "y", "final": "u", "syllable": "yu", "exampleCharacter": "鱼"}
+  ],
+  "units": [
+    {
+      "id": "unit-2",
+      "title": "第二单元",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "a o e",
+          "items": [
+            {"id": "a", "label": "a", "kind": "FINAL", "speechText": "啊"},
+            {"id": "o", "label": "o", "kind": "FINAL", "speechText": "喔"},
+            {"id": "e", "label": "e", "kind": "FINAL", "speechText": "鹅"}
+          ],
+          "characters": [
+            {"character": "啊", "syllable": "ā", "itemId": "a"},
+            {"character": "哦", "syllable": "ó", "itemId": "o"},
+            {"character": "鹅", "syllable": "é", "itemId": "e"}
+          ]
+        },
+        {
+          "id": "l02",
+          "title": "i u ü",
+          "items": [
+            {"id": "i", "label": "i", "kind": "FINAL", "speechText": "衣"},
+            {"id": "u", "label": "u", "kind": "FINAL", "speechText": "乌"},
+            {"id": "ü", "label": "ü", "kind": "FINAL", "speechText": "迂"}
+          ],
+          "characters": [
+            {"character": "衣", "syllable": "yī", "itemId": "i"},
+            {"character": "乌", "syllable": "wū", "itemId": "u"},
+            {"character": "鱼", "syllable": "yú", "itemId": "ü"}
+          ]
+        },
+        {
+          "id": "l03",
+          "title": "b p m f",
+          "items": [
+            {"id": "b", "label": "b", "kind": "INITIAL", "speechText": "玻"},
+            {"id": "p", "label": "p", "kind": "INITIAL", "speechText": "坡"},
+            {"id": "m", "label": "m", "kind": "INITIAL", "speechText": "摸"},
+            {"id": "f", "label": "f", "kind": "INITIAL", "speechText": "佛"}
+          ],
+          "characters": [
+            {"character": "爸", "syllable": "bà", "itemId": "b"},
+            {"character": "妈", "syllable": "mā", "itemId": "m"},
+            {"character": "马", "syllable": "mǎ", "itemId": "m"}
+          ]
+        },
+        {
+          "id": "l04",
+          "title": "d t n l",
+          "items": [
+            {"id": "d", "label": "d", "kind": "INITIAL", "speechText": "得"},
+            {"id": "t", "label": "t", "kind": "INITIAL", "speechText": "特"},
+            {"id": "n", "label": "n", "kind": "INITIAL", "speechText": "讷"},
+            {"id": "l", "label": "l", "kind": "INITIAL", "speechText": "勒"}
+          ],
+          "characters": [
+            {"character": "大", "syllable": "dà", "itemId": "d"},
+            {"character": "土", "syllable": "tǔ", "itemId": "t"},
+            {"character": "路", "syllable": "lù", "itemId": "l"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-3",
+      "title": "第三单元",
+      "lessons": [
+        {
+          "id": "l05",
+          "title": "g k h",
+          "items": [
+            {"id": "g", "label": "g", "kind": "INITIAL", "speechText": "哥"},
+            {"id": "k", "label": "k", "kind": "INITIAL", "speechText": "科"},
+            {"id": "h", "label": "h", "kind": "INITIAL", "speechText": "喝"}
+          ],
+          "characters": [
+            {"character": "哥", "syllable": "gē", "itemId": "g"},
+            {"character": "花", "syllable": "huā", "itemId": "h"},
+            {"character": "画", "syllable": "huà", "itemId": "h"}
+          ]
+        },
+        {
+          "id": "l06",
+          "title": "j q x",
+          "items": [
+            {"id": "j", "label": "j", "kind": "INITIAL", "speechText": "基"},
+            {"id": "q", "label": "q", "kind": "INITIAL", "speechText": "欺"},
+            {"id": "x", "label": "x", "kind": "INITIAL", "speechText": "希"}
+          ],
+          "characters": [
+            {"character": "积", "syllable": "jī", "itemId": "j"},
+            {"character": "棋", "syllable": "qí", "itemId": "q"},
+            {"character": "西", "syllable": "xī", "itemId": "x"}
+          ]
+        },
+        {
+          "id": "l07",
+          "title": "z c s",
+          "items": [
+            {"id": "z", "label": "z", "kind": "INITIAL", "speechText": "资"},
+            {"id": "c", "label": "c", "kind": "INITIAL", "speechText": "雌"},
+            {"id": "s", "label": "s", "kind": "INITIAL", "speechText": "思"}
+          ],
+          "characters": [
+            {"character": "字", "syllable": "zì", "itemId": "z"},
+            {"character": "词", "syllable": "cí", "itemId": "c"},
+            {"character": "子", "syllable": "zǐ", "itemId": "z"}
+          ]
+        },
+        {
+          "id": "l08",
+          "title": "zh ch sh r",
+          "items": [
+            {"id": "zh", "label": "zh", "kind": "INITIAL", "speechText": "知"},
+            {"id": "ch", "label": "ch", "kind": "INITIAL", "speechText": "蚩"},
+            {"id": "sh", "label": "sh", "kind": "INITIAL", "speechText": "诗"},
+            {"id": "r", "label": "r", "kind": "INITIAL", "speechText": "日"}
+          ],
+          "characters": [
+            {"character": "桌", "syllable": "zhuō", "itemId": "zh"},
+            {"character": "纸", "syllable": "zhǐ", "itemId": "zh"},
+            {"character": "书", "syllable": "shū", "itemId": "sh"}
+          ]
+        },
+        {
+          "id": "l09",
+          "title": "y w · 整体认读",
+          "items": [
+            {"id": "y", "label": "y", "kind": "INITIAL", "speechText": "衣"},
+            {"id": "w", "label": "w", "kind": "INITIAL", "speechText": "乌"},
+            {"id": "zhi", "label": "zhi", "kind": "WHOLE_SYLLABLE", "speechText": "织"},
+            {"id": "chi", "label": "chi", "kind": "WHOLE_SYLLABLE", "speechText": "吃"},
+            {"id": "shi", "label": "shi", "kind": "WHOLE_SYLLABLE", "speechText": "狮"},
+            {"id": "ri", "label": "ri", "kind": "WHOLE_SYLLABLE", "speechText": "日"},
+            {"id": "zi", "label": "zi", "kind": "WHOLE_SYLLABLE", "speechText": "资"},
+            {"id": "ci", "label": "ci", "kind": "WHOLE_SYLLABLE", "speechText": "刺"},
+            {"id": "si", "label": "si", "kind": "WHOLE_SYLLABLE", "speechText": "丝"},
+            {"id": "yi", "label": "yi", "kind": "WHOLE_SYLLABLE", "speechText": "衣"},
+            {"id": "wu", "label": "wu", "kind": "WHOLE_SYLLABLE", "speechText": "屋"},
+            {"id": "yu", "label": "yu", "kind": "WHOLE_SYLLABLE", "speechText": "雨"},
+            {"id": "ye", "label": "ye", "kind": "WHOLE_SYLLABLE", "speechText": "椰"},
+            {"id": "yue", "label": "yue", "kind": "WHOLE_SYLLABLE", "speechText": "月"},
+            {"id": "yuan", "label": "yuan", "kind": "WHOLE_SYLLABLE", "speechText": "圆"},
+            {"id": "yin", "label": "yin", "kind": "WHOLE_SYLLABLE", "speechText": "印"},
+            {"id": "yun", "label": "yun", "kind": "WHOLE_SYLLABLE", "speechText": "云"},
+            {"id": "ying", "label": "ying", "kind": "WHOLE_SYLLABLE", "speechText": "鹰"}
+          ],
+          "characters": [
+            {"character": "鱼", "syllable": "yú", "itemId": "yu"},
+            {"character": "鸭", "syllable": "yā", "itemId": "y"},
+            {"character": "乌", "syllable": "wū", "itemId": "w"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-4",
+      "title": "第四单元",
+      "lessons": [
+        {
+          "id": "l10",
+          "title": "ai ei ui",
+          "items": [
+            {"id": "ai", "label": "ai", "kind": "FINAL", "speechText": "哀"},
+            {"id": "ei", "label": "ei", "kind": "FINAL", "speechText": "诶"},
+            {"id": "ui", "label": "ui", "kind": "FINAL", "speechText": "威"}
+          ],
+          "characters": [
+            {"character": "白", "syllable": "bái", "itemId": "ai"},
+            {"character": "菜", "syllable": "cài", "itemId": "ai"},
+            {"character": "水", "syllable": "shuǐ", "itemId": "ui"}
+          ]
+        },
+        {
+          "id": "l11",
+          "title": "ao ou iu",
+          "items": [
+            {"id": "ao", "label": "ao", "kind": "FINAL", "speechText": "熬"},
+            {"id": "ou", "label": "ou", "kind": "FINAL", "speechText": "欧"},
+            {"id": "iu", "label": "iu", "kind": "FINAL", "speechText": "优"}
+          ],
+          "characters": [
+            {"character": "小", "syllable": "xiǎo", "itemId": "ao"},
+            {"character": "桥", "syllable": "qiáo", "itemId": "ao"},
+            {"character": "流", "syllable": "liú", "itemId": "iu"}
+          ]
+        },
+        {
+          "id": "l12",
+          "title": "ie üe er",
+          "items": [
+            {"id": "ie", "label": "ie", "kind": "FINAL", "speechText": "耶"},
+            {"id": "üe", "label": "üe", "kind": "FINAL", "speechText": "约"},
+            {"id": "er", "label": "er", "kind": "FINAL", "speechText": "耳"}
+          ],
+          "characters": [
+            {"character": "夜", "syllable": "yè", "itemId": "ie"},
+            {"character": "雪", "syllable": "xuě", "itemId": "üe"},
+            {"character": "耳", "syllable": "ěr", "itemId": "er"}
+          ]
+        },
+        {
+          "id": "l13",
+          "title": "an en in un ün",
+          "items": [
+            {"id": "an", "label": "an", "kind": "FINAL", "speechText": "安"},
+            {"id": "en", "label": "en", "kind": "FINAL", "speechText": "恩"},
+            {"id": "in", "label": "in", "kind": "FINAL", "speechText": "因"},
+            {"id": "un", "label": "un", "kind": "FINAL", "speechText": "温"},
+            {"id": "ün", "label": "ün", "kind": "FINAL", "speechText": "晕"}
+          ],
+          "characters": [
+            {"character": "蓝", "syllable": "lán", "itemId": "an"},
+            {"character": "云", "syllable": "yún", "itemId": "ün"},
+            {"character": "今", "syllable": "jīn", "itemId": "in"}
+          ]
+        },
+        {
+          "id": "l14",
+          "title": "ang eng ing ong",
+          "items": [
+            {"id": "ang", "label": "ang", "kind": "FINAL", "speechText": "昂"},
+            {"id": "eng", "label": "eng", "kind": "FINAL", "speechText": "亨"},
+            {"id": "ing", "label": "ing", "kind": "FINAL", "speechText": "英"},
+            {"id": "ong", "label": "ong", "kind": "FINAL", "speechText": "翁"}
+          ],
+          "characters": [
+            {"character": "冰", "syllable": "bīng", "itemId": "ing"},
+            {"character": "风", "syllable": "fēng", "itemId": "eng"},
+            {"character": "红", "syllable": "hóng", "itemId": "ong"}
+          ]
+        }
+      ]
+    }
+  ]
+}
